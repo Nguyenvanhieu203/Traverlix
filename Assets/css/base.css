@@ -22,9 +22,21 @@
 html {
     font-size: 62.5%;
     /* line-height: 1.6rem; */
-    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #a5a5a5;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "Beyond";
+    src: url("../font/Last\ Beyond.ttf") format("truetype");
+  }
 
 @keyframes all {
     from {
