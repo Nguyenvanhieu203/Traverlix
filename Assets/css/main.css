@@ -596,7 +596,6 @@
     background: #31124b;
 }
 
-<<<<<<< HEAD
 /* Pakage */
 
 .pakage{
@@ -754,7 +753,7 @@
     .icon img {
         padding: 0 10px;
     }
-=======
+
 .container_footer {
     display: flex;
     justify-content: space-evenly;
@@ -939,4 +938,3 @@
     color: var(--yellow);
     text-decoration: none;
 }
->>>>>>> bb01e71c4a8100de2512d34e01c6dd97d3e37c4a
