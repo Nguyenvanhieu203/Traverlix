@@ -1,2 +1,2 @@
 # Traverlix
-hieu sua tat
+hieu: làm footer
