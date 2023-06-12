@@ -16,7 +16,24 @@ function setCurrentPage() {
     }
   });
 }
+// bắt sự kiện khi người dùng cuộn trang
+window.addEventListener('scroll', function() {
+  var headerNavbar = document.querySelector('.header_navbar');
+  var homeBtn = document.querySelector('.home_background--btn');
+  var scrollPosition = window.scrollY;
 
+  if (scrollPosition > 0) {
+      headerNavbar.style.position = 'fixed';
+      headerNavbar.style.top = '0px';
+      homeBtn.style.marginTop = '500px';
+  } else {
+      headerNavbar.style.position = 'relative';
+      headerNavbar.style.top = 'auto';
+      homeBtn.style.marginTop = '380px';
+  }
+});
+
+// bắt sự kiện bật tắt input search
 // Gọi hàm setCurrentPage khi trang được tải
 window.addEventListener('DOMContentLoaded', setCurrentPage);
 

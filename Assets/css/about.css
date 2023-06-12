@@ -69,13 +69,13 @@
     font-size: 14px;
     font-weight: 600;
     color: var(--white-color);
-    /*  */
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(../img/bg_header.webp);
+    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(../img/Turkey-Turkish-Cappadocia-hot-air-balloons-1149868-wallhere.com.jpg);
 }
 
 .header_navbar {
@@ -165,368 +165,45 @@
     color: var(--yellow);
 }
 
- 
-/* Body */
-
-.body {
-
-}
-
-.home_background {
-    margin: auto;
+.home_title {
     position: absolute;
-    top: 26%;
+    top: 55%;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.home_background h1:first-child {
-    font-size: 100px;
-    font-weight: 900;
-    text-align: center;
+.home_title h1 {
+    font-size: 72px;
+    color: var(--white-color);
     text-transform: uppercase;
+    font-weight: 800;
 }
 
-.home_background h1:last-child {
-    font-family: 'Beyond';
-    font-size: 210px;
-    font-weight: 560;
-    color: #fff;
-    text-align: center;
-}
-
-.home_background--btn {
-    display: inline-block;
-    border-radius: 27px;
-    position: relative;
-    margin-top: 380px;
-    left: 50%;
-    transform: translateX(-50%);
-    overflow: hidden;
-}
-
-
-
-.background_btn--bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%;
-    height: 100%;
-    background: var(--bg-btn);
-    cursor: pointer;
-}
-
-.home_background--btn:hover .background_btn--bg {
-    transform: translateX(-50%);
-    transition: all 400ms ease;
-
-}
-
-.background_btn {
-    font-size: 13px;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 53px;
-    padding-left: 46px;
-    padding-right: 46px;
-    white-space: nowrap;
-    position: relative;
-    text-decoration: none;
-}
-
-.option {
+.info_tour {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 90px 150px 90px 200px;
     align-items: center;
-    height: 94px;
-    margin-left: 1px;
-    padding: 0 100px;
-    margin-top: 70px;
+    background-color: #f6f9fb;
 }
-.option_list-item {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    background-color: var(--white-color);
-    transition: all .3s ease;
+
+.info_tour--title h1 {
     color: var(--black);
-    font-size: 14px;
-    font-weight: 700;
+    margin-bottom: 36px;
     text-transform: uppercase;
-    flex-grow: 1;
-    justify-content: center;
+    font-size: 30px;
 }
 
-.option_list-item:hover{
-    background-color: var(--yellow);
-}
-
-.option_list-item:hover a {
-    color: var(--white-color);
-}
-
-.option_list-item:hover img {
-    color: var(--white-color);
-    filter: brightness(200%) grayscale(100%);
-}
-
-.option_list-item:first-child {
-    border-top-left-radius: 94px;
-    padding-left: 7px;
-}
-
-.option_list-item:last-child {
-    border-top-right-radius: 94px;
-    padding-left: 7px;
-}
-
-.option_list-item img {
-    margin-right: 10px;
-}
-
-.option_item--link {
-    text-decoration: none;
-    color: var(--black);
-}
-
-.background_search {
-    display: flex;
-    justify-content: center;
-    background: var(--bg-section);
-    height: 192px;
-    align-items: center;
-}
-
-.search_item {
-    padding-left: 16px;
-}
-
-.search_item input {
-    height: 46px;
-    border: none;
-    outline: none;
-    /* width: 100%; */
-    font-size: 13px;
-    font-weight: 600;
+.info_tour--text p {
+    font-weight: 545;
     color: #929191;
-    padding: 15px;
-}
-
-.search_item--destination {
-    width: 394px;
-}
-
-.search_item--input {
-    width: 190px;
-}
-
-.search_item a {
-    color: var(--white-color);
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-right: 10px;
-}
-
-.search_item--btn {
-    height: 52px;
-    width: 208px;
-    background-color: var(--btn-black);
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    border-radius: 52px;
-    line-height: 52px;
-    margin-top: 14px;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    margin-left: 16px;
-}
-
-.search_item--btn:hover {
-    background-color: var(--yellow);
-}
-
-.search_item--btn a {
-    text-decoration: none;
-}
-
-.search_item--btn span {
-    display: inline-block;
-    vertical-align: middle;
-    width: 5.75px;
-    height: 5.63px;
-    background: #fff;
-    border-radius: 50%;
-    margin-right: 2px;
-    margin-top: 1%;
-}
-
-.search_item--btn span:nth-child(3) {
-    opacity: .6;
-    margin-left: 0;
-}
-
-.search_item--btn span:last-child {
-    opacity: .4;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.select_adults,
-.select_children {
-    width: 88px;
-    height: 48px;
-    padding: 0 10px;
-    cursor: pointer;
-    border: none;
-    outline: none;
+    margin-top: 60px;
+    line-height: 2;
+    text-align: justify;
 }
 
 
-/* mày làm */
-.tour{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-.grid{
-    width: 100%;
-    display: block;
-    padding: 0;
-}
-.grid.wide{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.tour__container{   
-    margin: 80px 0;
-    margin-top: 260px;
-}
-.tour__container__content{
-    text-align: center;
-}
-.tour__container__content h2{
-    font-weight: 700;
-    color: #2D2C2C;
-    font-size: 36px;
-    margin-bottom: 30px;
-   
-}
-
-.tour__container__content p{
-    font-size: 24px;
-    font-weight: 200;
-    font-style: italic;
-    color: #929191;
-    line-height: 1.336;
-    margin-bottom: 50px;
-}
-
-.container_tour {
-    display: flex;
-    justify-content: space-around;
-}
-
-.overlay-tour {
-    position: absolute;
-    width: 384px;
-    height: 426px;
-    background: rgba(49, 18, 75, .55);
-}
-
-.container_tour--list {
-    position: relative;
-}
-
-.tour_background {
-    background-image: url(../img/xintro_1.jpg.pagespeed.ic.vc2WNRX2pm.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width: 384px;
-    height: 426px;
-}
-
-.tour_background1 {
-    background-image: url(../img/xintro_2.jpg.pagespeed.ic.T0_SEU16mo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width: 384px;
-    height: 426px;
-}
-
-.tour_background2 {
-    background-image: url(../img/xintro_3.jpg.pagespeed.ic.56ahj3oq2s.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width: 384px;
-    height: 426px;
-}
-
-.tour_background-items {
-    display: flex;
-    position: absolute;
-    top: 0;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 1005;
-    padding: 0 39px;
-    margin: 36px 0;
-}
-
-.tour_list--date {
-    background-color: #FA9E1B;
-    color: var(--white-color);
-    height: 28px;
-    border-radius: 20px;
-    text-align: center; 
-}
-
-.tour_list--date p {
-    padding: 0 39px;
-    line-height: 28px;
-}
-
-.tour_list--name {
-    padding: 0 39px;
-    color: var(--white-color);
-    margin-top: 90px;
-    text-align: center;
-}
-
-.tour_list--name h1 {
-    font-size: 60px;
-}
-
-.tour_rate {
-    color: var(--yellow);
-    padding: 10px 0;
-    font-size: 18px;
-}
-
-.tour_rate i:first-child {
-    color: #ffeb8d; 
-}
-/* #fed46b */
-
-.tour_rate i:nth-child(2){
-    color: #fed46b; 
-}
-.tour_rate i:nth-child(3){
-    color: #fbb53d; 
-}
-
-.tour_rate i:nth-child(5){
-    color: #a5a5a5; 
-}
-
+/*  */
 .tour_btn {
     display: inline-block;
     width: 198px;

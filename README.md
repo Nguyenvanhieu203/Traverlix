@@ -1,2 +1,2 @@
 # Traverlix
-hieu: làm footer
+hieu: about
