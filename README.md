@@ -1,2 +1,3 @@
 # Traverlix
-hieu sua tat
+hieu: làm footer
+minh: làm offer content
