@@ -36,7 +36,7 @@ body {
 @font-face {
     font-family: "Beyond";
     src: url("../font/Last\ Beyond.ttf") format("truetype");
-  }
+}
 
 @keyframes all {
     from {
