@@ -596,10 +596,6 @@
     background: #31124b;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a454bd811e18b3584cad7bac0a47aa27a54e99b9
 /* Pakage */
 
 .container_pakage{
@@ -636,7 +632,6 @@
 
 /* offer */
 
-<<<<<<< HEAD
 /* cách 1 phân bố item theo container */
 .container_offer{
     display: grid;
@@ -755,7 +750,6 @@
 .icon img {
     padding: 0 10px;
 }
-=======
     /* cách 1 phân bố item theo container */
     .container_offer{
         display: grid;
@@ -896,7 +890,6 @@
     .icon img {
         padding: 0 10px;
     }
->>>>>>> a454bd811e18b3584cad7bac0a47aa27a54e99b9
 
 .container_footer {
     display: flex;
@@ -1081,7 +1074,6 @@
 .coppyright a {
     color: var(--yellow);
     text-decoration: none;
-<<<<<<< HEAD
 }
 
 /* testimonials */
@@ -1190,6 +1182,4 @@
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-=======
->>>>>>> a454bd811e18b3584cad7bac0a47aa27a54e99b9
 }
