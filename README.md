@@ -1,2 +1,2 @@
 # Traverlix
-mai sua grid phần offer
+hieu: about
