@@ -592,7 +592,7 @@
     background: #31124b;
 }
 
-<<<<<<< HEAD
+
 /* Pakage */
 
 .pakage{
@@ -632,125 +632,125 @@
 
 /* offer */
 
-    /* cách 1 phân bố item theo container */
-    .container_offer{
-        display: grid;
-        /* Số hàng */
-        grid-template-columns: repeat(2,590px); 
-        /* Số cột (bên dưới là cú pháp shorthand) */
-        /* grid-template-rows: repeat(3,1fr); */
-        grid-template-rows: 100px 290px 290px;
-        margin: 50px 340px;
-        gap: 72px;
-        
-    }
-    /* Cách 2: Phân bố item theo grid line */
-    .heading_offer{
-        grid-column: 1/3;
-        grid-row: 1/2;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .heading_offer h2{
-        color: black;
-        text-transform: uppercase;
-        font-size: 30px;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .picture_one_offer{
-        display: flex;
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .picture_two_offer{
-        grid-column: 2/3;
-        grid-row: 2/3;
-        display: flex;
-    }
-    .picture_three_offer{
-        grid-column: 1/2;
-        grid-row: 3/4;
-        display: flex;
-    }
-    .picture_four_offer{
-        grid-column: 2/3;
-        grid-row: 3/4;
-        display: flex;
-    }
-    .picture_item{
-        width: 302px;
-        height: 290px;
-        position: absolute;
-    }
-    .conten_text{
-     
+/* cách 1 phân bố item theo container */
+.container_offer{
+    display: grid;
+    /* Số hàng (bên dưới là cú pháp shorthand) */
+    grid-template-columns: repeat(2,590px); 
+    /* Số cột*/
+    /* grid-template-rows: repeat(3,1fr); */
+    grid-template-rows: 100px 290px 290px;
+    margin: 50px 340px;
+    gap: 72px;
     
-        display: flex;
-        flex-direction: column;
-        font-family: 'Open Sans', sans-serif;
-        margin-left: 310px;
-    }
-    .text{
-        margin-top: 75px;
-    }
-    .text a{
-        display: block;
-        text-transform: uppercase;
-        color: black;
-        font-size: 13px;
-        font-weight: 700;
-        text-decoration: none;
-        
-    }
-    .desciption_offer{
-        margin: 0;
-        font-size: 14px;
-        font-weight: 400;
-        color: #929191;
-        line-height: 2;
-        padding: 16px 0;
-    }
-    .price_offer{
-        display: inline-block;
-        font-size: 36px;
-        font-weight: 700;
-        color: #eda84a;
-        line-height: 25px;
-    }
-    .price_offer span{
-        font-size: 14px;
-        font-weight: 400;
-        color: #929191;
-        margin-left: 5px;
-    }
+}
+/* Cách 2: Phân bố item theo grid line */
+.heading_offer{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    padding-top: 10px;
+}
+.heading_offer h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.picture_one_offer{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.picture_two_offer{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+}
+.picture_three_offer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+}
+.picture_four_offer{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: flex;
+}
+.picture_item{
+    width: 302px;
+    height: 290px;
+    position: absolute;
+}
+.conten_text{
     
-    .offer_container--item_name a{
-        position: absolute;
-        width: 180px;
-        height: 32px;
-        background-color: #fa9e1b;
-        color: #fff;
-        margin-top: 224px;
-        font-size: 16px;
-        font-weight: 700;
-        text-align: center;
-        text-decoration: none;
-        line-height: 32px;
-       
-      
-    }
-    .offer_container--item_name a:hover{
-        opacity: .85;
-    }
-    .conten_pic{
-        font-family: 'Open Sans', sans-serif;
-        text-transform: uppercase;
-    }
-    .icon img {
-        padding: 0 10px;
-    }
-=======
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 310px;
+}
+.text{
+    margin-top: 75px;
+}
+.text a{
+    display: block;
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.desciption_offer{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #929191;
+    line-height: 2;
+    padding: 16px 0;
+}
+.price_offer{
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    color: #eda84a;
+    line-height: 25px;
+}
+.price_offer span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #929191;
+    margin-left: 5px;
+}
+
+.offer_container--item_name a{
+    position: absolute;
+    width: 180px;
+    height: 32px;
+    background-color: #fa9e1b;
+    color: #fff;
+    margin-top: 224px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    
+    
+}
+.offer_container--item_name a:hover{
+    opacity: .85;
+}
+.conten_pic{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.icon img {
+    padding: 0 10px;
+}
+
 .container_footer {
     display: flex;
     justify-content: space-evenly;
@@ -935,4 +935,111 @@
     color: var(--yellow);
     text-decoration: none;
 }
->>>>>>> bb01e71c4a8100de2512d34e01c6dd97d3e37c4a
+
+/* testimonials */
+.testimonials_container{
+    margin: 100px;
+}
+.testimonials_container--heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials_container--items{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 0 300px;
+    
+}
+.testimonials_item{
+    position: relative;
+}
+.testimonials_item img{
+    width: 384px;
+    height: 540px;
+    margin: 0 14px;
+}
+.testimonials_item--icon{
+    position: absolute;
+    top: -50px;
+    left: 42px;
+    width: 80px;
+    height: 80px;
+    background: var(--yellow);
+    border-radius: 50%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.testimonials_item--icon img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+   
+    /* top: -50%;
+    left: -50%;
+    width: auto!important; */
+}
+.testimonials_item--css{
+    position: absolute;
+    top: 282px;
+    margin: 0 14px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(49, 18, 75, .8);
+}
+.testimonials_item_container--infor{
+    position: absolute;
+    /* width: 142px;
+    height: 60px; */
+    top: 244px;
+    left: 42px;
+    background-color: var(--white-color);
+    padding-left: 20px;
+    padding-right: 21px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    
+}
+.testimonials_item_container--infor h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #2d2c2c;
+    text-transform: uppercase;
+}
+
+.testimonials_item_container--infor span{
+    font-size: 11px;
+    margin-top: 2px;
+    color: #2d2c2c;
+    padding-left: 2px;
+}
+.testimonials_item_container--countant{
+    position: absolute;
+    top: 334px;
+    left: 42px;
+    color: white;
+    
+}
+.testimonials_item_container--countant span{
+    font-size: 20px;
+    font-weight: 500;  
+    padding-left: 3px;
+}
+.testimonials_item_container--countant p{
+    font-weight: 500;
+    margin-top: 11px;
+    line-height: 2;
+}
+.testimonials_heading_container{
+    margin: 100px 0;
+}
+.testimonials_heading_container h2{
+    color: var(--black);
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
