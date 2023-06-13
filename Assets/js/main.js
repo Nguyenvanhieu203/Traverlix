@@ -47,4 +47,18 @@ function HideShowSearch() {
     input.style.display = 'none'; // Ẩn input nếu nó đang hiển thị
   }
 }
+
+//
+// Lấy thẻ input checkbox
+const petCheckbox = document.getElementById('petCheckbox');
+
+// Thêm sự kiện lắng nghe khi checkbox thay đổi trạng thái
+petCheckbox.addEventListener('change', function() {
+  const checkboxDiv = this.parentNode;
+  if (this.checked) {
+    checkboxDiv.classList.add('checked');
+  } else {
+    checkboxDiv.classList.remove('checked');
+  }
+});
   
