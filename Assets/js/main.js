@@ -16,6 +16,9 @@
 //     }
 //   });
 // }
+
+// Gọi hàm setCurrentPage khi trang được tải
+window.addEventListener('DOMContentLoaded', addEventListener);
 // bắt sự kiện khi người dùng cuộn trang
 window.addEventListener('scroll', function() {
   var headerNavbar = document.querySelector('.header_navbar');
@@ -28,7 +31,7 @@ window.addEventListener('scroll', function() {
       homeBtn.style.marginTop = '500px';
   } else {
       headerNavbar.style.position = 'relative';
-      headerNavbar.style.top = 'auto';
+      headerNavbar.style.top = '0px';
       homeBtn.style.marginTop = '380px';
   }
 });

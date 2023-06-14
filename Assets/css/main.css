@@ -36,7 +36,7 @@
 .link i:hover {
     cursor: pointer;
     color: var(--yellow);
-    animation: all 0.3s ease-in;
+    /* animation: all 0.3s ease-in; */
 }
 
 .header_topbar--register {
@@ -52,7 +52,7 @@
 .header_topbar--register a:hover {
     cursor: pointer;
     color: var(--yellow);
-    animation: all 0.3s ease-in;
+    /* animation: all 0.3s ease-in; */
 }
 
 .header_topbar--register a li {
@@ -632,6 +632,10 @@
 
 /* offer */
 
+.traverlix_offer {
+    background-color: #f3f6f9;
+}
+
 /* cách 1 phân bố item theo container */
 .container_offer{
     display: grid;
@@ -640,9 +644,9 @@
     /* Số cột*/
     /* grid-template-rows: repeat(3,1fr); */
     grid-template-rows: 100px 290px 290px;
-    margin: 50px 340px;
+    margin: 0 340px;
     gap: 72px;
-    
+    padding: 100px 0;
 }
 /* Cách 2: Phân bố item theo grid line */
 .heading_offer{
@@ -758,7 +762,7 @@
         /* Số cột (bên dưới là cú pháp shorthand) */
         /* grid-template-rows: repeat(3,1fr); */
         grid-template-rows: 100px 290px 290px;
-        margin: 100px 148px 130px;
+        margin: 0 148px 0 ;
         gap: 72px;
         
     }
@@ -1077,8 +1081,12 @@
 }
 
 /* testimonials */
+.testimonials {
+    background-color: var(--white-color);
+}
+
 .testimonials_container{
-    margin: 100px;
+    margin: 100px 0 150px;
 }
 .testimonials_container--heading{
     display: flex;
@@ -1175,7 +1183,7 @@
     line-height: 2;
 }
 .testimonials_heading_container{
-    margin: 100px 0;
+    margin-bottom: 100px;
 }
 .testimonials_heading_container h2{
     color: var(--black);
