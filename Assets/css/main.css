@@ -596,10 +596,7 @@
     background: #31124b;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> a27d824c08161b9b383d5c10fd55593b999507a8
 /* Pakage */
 
 .container_pakage{
@@ -636,11 +633,7 @@
 
 /* offer */
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> a27d824c08161b9b383d5c10fd55593b999507a8
 /* cách 1 phân bố item theo container */
 .container_offer{
     display: grid;
@@ -780,8 +773,7 @@
 .icon img {
     padding: 0 10px;
 }
-<<<<<<< HEAD
-=======
+
     /* cách 1 phân bố item theo container */
     .container_offer{
         display: grid;
@@ -853,76 +845,73 @@
         text-decoration: none;
         
     }
->>>>>>> a27d824c08161b9b383d5c10fd55593b999507a8
 
 
-<<<<<<< HEAD
-=======
-    .desciption_offer{
-        margin: 0;
-        font-size: 14px;
-        font-weight: 400;
-        color: #929191;
-        line-height: 2;
-        padding: 16px 0;
-    }
-    .price_offer{
-        display: inline-block;
-        font-size: 36px;
-        font-weight: 700;
-        color: #eda84a;
-        line-height: 25px;
-    }
-    .price_offer span{
-        font-size: 14px;
-        font-weight: 400;
-        color: #929191;
-        margin-left: 5px;
-    }
+.desciption_offer{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #929191;
+    line-height: 2;
+    padding: 16px 0;
+}
+.price_offer{
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    color: #eda84a;
+    line-height: 25px;
+}
+.price_offer span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #929191;
+    margin-left: 5px;
+}
 
 .offer_rate i:first-child {
-    color: #ffeb8d;
+color: #ffeb8d;
 }
 .offer_rate i:nth-child(2) {
-    color: rgb(254, 212, 107)
+color: rgb(254, 212, 107)
 }
 .offer_rate i:nth-child(3) {
-    color: #fbb53d;
+color: #fbb53d;
 }
 .offer_rate i:nth-child(4) {
-    color: var(--yellow);
+color: var(--yellow);
 }
 
 .offer_rate i:last-child {
-    color: #a5a5a5;
+color: #a5a5a5;
 }
+
+.offer_container--item_name a{
+    position: absolute;
+    width: 180px;
+    height: 32px;
+    background-color: #fa9e1b;
+    color: #fff;
+    margin-top: 224px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
     
-    .offer_container--item_name a{
-        position: absolute;
-        width: 180px;
-        height: 32px;
-        background-color: #fa9e1b;
-        color: #fff;
-        margin-top: 224px;
-        font-size: 16px;
-        font-weight: 700;
-        text-align: center;
-        text-decoration: none;
-        line-height: 32px;
-       
-      
-    }
-    .offer_container--item_name a:hover{
-        opacity: .85;
-    }
-    .conten_pic{
-        font-family: 'Open Sans', sans-serif;
-        text-transform: uppercase;
-    }
-    .icon img {
-        padding: 0 10px;
-    }
->>>>>>> a27d824c08161b9b383d5c10fd55593b999507a8
+    
+}
+.offer_container--item_name a:hover{
+    opacity: .85;
+}
+.conten_pic{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.icon img {
+    padding: 0 10px;
+}
+
 
 .container_footer {
     display: flex;
@@ -1107,10 +1096,7 @@
 .coppyright a {
     color: var(--yellow);
     text-decoration: none;
-<<<<<<< HEAD
 
-=======
->>>>>>> a27d824c08161b9b383d5c10fd55593b999507a8
 }
 
 /* testimonials */
@@ -1230,7 +1216,7 @@
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-<<<<<<< HEAD
+
 
 }
 
@@ -1400,6 +1386,4 @@
 }
 .contact_button_submit:hover{
     opacity: 0.6;
-=======
->>>>>>> a27d824c08161b9b383d5c10fd55593b999507a8
 }
