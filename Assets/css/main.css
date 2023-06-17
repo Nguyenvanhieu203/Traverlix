@@ -1657,7 +1657,7 @@ color: #a5a5a5;
     position: absolute;
     width: 688px;
     height: 606px;
-    right: 352px;
+    right: 20%;
     padding: 74px 48px 88px 48px;
     background: var(--border);
     border-radius: 7px;
