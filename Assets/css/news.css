@@ -229,6 +229,25 @@
     grid-column: 2/3;
     grid-row: 1/2;
 }
+
+.news_content--search {
+    position: relative;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    transform: rotate(90deg);
+    font-size: 2.2rem;
+    color: var(--yellow);
+}
+
+.fa-magnifying-glass:hover {
+    color: var(--black);
+    cursor: pointer;
+}
+
 .news_container--line_two{
     grid-column: 1/2;
     grid-row: 2/3;
