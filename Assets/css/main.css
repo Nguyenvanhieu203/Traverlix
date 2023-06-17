@@ -649,9 +649,10 @@
     /* Số cột (bên dưới là cú pháp shorthand) */
     /* grid-template-rows: repeat(3,1fr); */
     grid-template-rows: 100px 290px 290px;
-    margin: 0 340px;
-    margin: 100px 148px 130px;
+    padding: 100px 0 130px;
     gap: 72px;
+    background-color: #f3f6f9;
+
     
 }
 /* Cách 2: Phân bố item theo grid line */
@@ -988,6 +989,7 @@ color: #a5a5a5;
     width: 40px;
     height: 40px;
     position: relative;
+    
    
     /* top: -50%;
     left: -50%;
@@ -1498,7 +1500,6 @@ color: #a5a5a5;
     justify-content: center;
     align-items: center ;
     margin: 0 300px;
-    
 }
 .testimonials_item{
     position: relative;
@@ -1519,16 +1520,15 @@ color: #a5a5a5;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+.testimonials_item--icon:hover{
+    filter: brightness(125%);
+}
+
 .testimonials_item--icon img{
     width: 40px;
     height: 40px;
     position: relative;
-   
-    /* top: -50%;
-    left: -50%;
-    width: auto!important; */
 }
 .testimonials_item--css{
     position: absolute;
@@ -1541,16 +1541,10 @@ color: #a5a5a5;
 }
 .testimonials_item_container--infor{
     position: absolute;
-    /* width: 142px;
-    height: 60px; */
     top: 244px;
     left: 42px;
     background-color: var(--white-color);
-    padding-left: 20px;
-    padding-right: 21px;
-    padding-top: 9px;
-    padding-bottom: 10px;
-    
+    padding: 9px 21px 10px 20px;  
 }
 .testimonials_item_container--infor h3{
     font-size: 14px;
@@ -1569,8 +1563,7 @@ color: #a5a5a5;
     position: absolute;
     top: 334px;
     left: 42px;
-    color: white;
-    
+    color: white;   
 }
 .testimonials_item_container--countant span{
     font-size: 20px;
