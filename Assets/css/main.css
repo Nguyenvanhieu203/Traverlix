@@ -1048,6 +1048,31 @@
 .trending_item--content{
     padding-left: 16px;
 }
+
+.trending_item--pic1,
+.trending_item--pic2,
+.trending_item--pic3,
+.trending_item--pic4 {
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.trending_item--pic1 img:hover,
+.trending_item--pic2 img:hover,
+.trending_item--pic3 img:hover,
+.trending_item--pic4 img:hover {
+    cursor: pointer;
+    transform: scale(1.1) rotate(5deg);
+}
+
+.trending_item--pic1 img,
+.trending_item--pic2 img,
+.trending_item--pic3 img,
+.trending_item--pic4 img {
+    transition: all 0.4s ease;
+    display: block;
+}
+
 .trending_content--heading a {
     margin-top: -5px;
     text-decoration: none;
