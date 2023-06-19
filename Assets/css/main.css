@@ -307,7 +307,7 @@
     height: 46px;
     border: none;
     outline: none;
-    /* width: 100%; */
+    width: 100%;
     font-size: 13px;
     font-weight: 600;
     color: #929191;
@@ -432,8 +432,8 @@
 
 .overlay-tour {
     position: absolute;
-    width: 384px;
-    height: 426px;
+    width: 306px;
+    height: 422px;
     background: rgba(49, 18, 75, .55);
 }
 
@@ -446,8 +446,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 384px;
-    height: 426px;
+    width: 306px;
+    height: 422px;
 }
 
 .tour_background1 {
@@ -455,8 +455,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 384px;
-    height: 426px;
+    width: 306px;
+    height: 422px;
 }
 
 .tour_background2 {
@@ -464,8 +464,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 384px;
-    height: 426px;
+    width: 306px;
+    height: 422px;
 }
 
 .tour_background-items {
@@ -532,7 +532,7 @@
     width: 198px;
     border-radius: 27px;
     position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
     left: 96px;
     transform: translateX(-50%);
     overflow: hidden;
@@ -617,7 +617,6 @@
     width: 1200px;
     height: 406px;
     background-color: var(--white-color);
-    margin: auto; /* Căn giữa theo chiều ngang */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -632,7 +631,11 @@
     color: var(--black);
     text-transform: uppercase;
 }
-
+.pakage_text{
+    font-weight: 600;
+    line-height: 2.29;
+    margin-top: 14px;
+}
 /* offer */
 
 
@@ -700,10 +703,10 @@
     font-family: 'Open Sans', sans-serif;
     margin-left: 310px;
 }
-.text{
+.conten_text--more_infor{
     margin-top: 75px;
 }
-.text a{
+.conten_text--more_infor a{
     display: block;
     text-transform: uppercase;
     color: black;
@@ -713,7 +716,7 @@
     
 }
 
-.text a:hover {
+.conten_text--more_infor a:hover {
     color: var(--yellow);
 }
 
@@ -1641,7 +1644,6 @@ color: #a5a5a5;
 }
 
 /* Contact */
-
 .contact_container--background{
     background-image: url(../img/contact.jpg);
     background-repeat: no-repeat;
