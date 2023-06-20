@@ -1,4 +1,6 @@
 /* Ipad pro */
+
+/* Home */
 @media only screen and (min-width: 1024px) and (max-width: 1239px){
     .home{
         font-size: 14px;
@@ -214,4 +216,30 @@
         background: transparent;
         border-bottom: solid 2px #e1e1e1;
     }
+
+    /* About */
+    .info_tour {
+        display: flex;
+        justify-content: center;
+        padding: 90px 0px;
+        align-items: center;
+        background-color: #f6f9fb;
+    }
+
+    .info_tour--img img{
+       width: 570px;
+       height: 422px;
+       margin-right: 60px;
+    } 
+    .statistic {
+        text-align: center;
+        margin: 110px 0;
+    }.sale {
+        align-items: center;
+        margin: 0 20px;
+        margin-bottom: 94px;
+    }
+
+    /* Offers */
+   
 }

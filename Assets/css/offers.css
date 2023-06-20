@@ -731,3 +731,48 @@
     color: var(--yellow);
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 1366px){
+    .background_search {
+        background: var(--bg-section);
+        height: 320px;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        top: 80%;
+    }
+    .option {
+        top: 74%;
+    }
+    .home_title h1 {
+        font-size: 72px;
+        color: var(--white-color);
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-top: 400px; 
+    }
+    .home{
+        height:1366px ;
+        margin-bottom: 0px;
+    }
+    .hotels_picture--img img {
+        height: 240px;
+        width: 328px;
+    }
+    .hotels_sort {
+        padding: 92px 20px;
+    }
+    .search_item--btn {
+        margin-left: 700px;
+    }
+
+    .info_sub {
+        display: flex;
+        width: 600px;
+    }
+    .hotel_container--list {
+        padding-top: 50px;
+    }
+    
+}
