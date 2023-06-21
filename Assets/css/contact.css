@@ -601,7 +601,6 @@
 .footer_contact--items p {
     margin-bottom: 18px;
 }
-
 .coppyright {
     text-align: center;
     display: block;
@@ -613,4 +612,31 @@
 .coppyright a {
     color: var(--yellow);
     text-decoration: none;
+}
+/* Ipad pro */
+@media only screen and (min-width: 1024px) and (max-width: 1239px){
+    .get_in_touch {
+        width: 970px;
+        height: 600px;
+    }
+    .get_in_touch {
+        margin: 72px auto;
+    }
+    .contact_infor--name_email {
+        justify-content: center;
+    }
+    .contact_infor--name_email input {
+        width: 372px;
+    }
+    .contact_infor--subject{
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .contact_infor--subject input {
+        width: 764px;
+    }
+    .contat_infor--message textarea {
+        width: 764px;
+    }
 }
