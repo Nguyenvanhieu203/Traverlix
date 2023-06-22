@@ -245,5 +245,13 @@ body {
         font-size: 25px;
         font-weight: 600;
     }
+    
+    .home_background h1:first-child {
+        font-size: 48px !important;
+    }
+
+    .home_background h1:last-child {
+        
+    }
 }
 
