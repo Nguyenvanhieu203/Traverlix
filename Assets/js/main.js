@@ -64,4 +64,20 @@ petCheckbox.addEventListener('change', function() {
     checkboxDiv.classList.remove('checked');
   }
 });
+
+
+// Start Responsive mobile
+
+function ShowNavbar() {
+  var navbarItem = document.querySelector('.navbar_icon--list_div');
+  navbarItem.classList.add('show');
+}
+
+function HideNavbar() {
+  var navbarItem = document.querySelector('.navbar_icon--list_div');
+  navbarItem.classList.remove('show');
+}
+
+
+// End responsive mobile
   
