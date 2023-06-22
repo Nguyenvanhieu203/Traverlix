@@ -49,7 +49,7 @@ body {
 
 /* Ipad */
 @media (min-width: 740px) and (max-width: 1023px){
-    .home{
+    /* .home{
         height: 1366px;         
     }
     .option{
@@ -147,6 +147,60 @@ body {
     }
     .contact_infor--name_email input {
         width: 220px;
+    } */
+
+    .home_background h1:first-child  {
+        font-size: 72px !important;
+    }
+    .home_background h1:last-child {
+        font-size: 100px !important;
+    }
+    .option {
+        margin-top: 372px !important;
+    }
+
+    .option_list-item {
+        flex: 48% !important;
+    }
+    .option{
+        flex-wrap: wrap;
+        height: 60px !important;
+
+    }
+    .option_list-item {
+        margin: 5px;
+    }
+    .option_list-item:first-child {
+        border-top-left-radius: 0px !important;
+        padding-left: 7px;
+    }
+    .option_list-item:last-child {
+        border-top-right-radius: 0px !important;
+        padding-left: 7px ;
+    } 
+    .background_search {
+        /* height: 600px !important;
+        margin-bottom: 300px; */
+    }
+    .background_search {
+        height: 600px !important;
+    }
+
+
+
+
+
+    .tour__container {
+        margin-top: 800px !important;
+    }
+
+
+
+    .header_navbar--items{
+        display: none;
+    }
+    .header_navbar--menu_icon{
+        visibility: visible;
     }
 }
 
