@@ -47,3 +47,106 @@ body {
     }
 }
 
+/* Ipad */
+@media (min-width: 740px) and (max-width: 1023px){
+    .home{
+        height: 1366px;         
+    }
+    .option{
+  
+        margin-top: 650px;
+    }
+    .search_item--btn {
+        margin-left: 16px;
+        margin-right: 20px;
+    }
+
+    .tour__container{   
+        margin: 80px 0;
+        margin-top: 200px;
+    }
+    .pakage_content{
+        height: 470px;
+        margin: 10px;
+    }
+    .pakage_text {
+        margin: 0 100px;
+        text-align: center;
+    }
+    .tour_btn {
+        margin-top: 20px;
+    }
+    .container_offer{
+        grid-template-columns: repeat(2,492px); 
+        grid-template-rows: 100px 310px 310px;
+        gap: 10px;
+        row-gap: 70px;
+        margin:  10px;
+    
+    }
+    .picture_item{
+        width: 240px;
+        height: 310px;
+    }
+    .conten_text {
+        margin-left: 260px;
+    }
+    .conten_text--more_infor{
+        margin-top: 68px;
+    }
+    .icon  img {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    .testimonials_container {
+        margin: -54px;
+    }
+    .testimonials_item--icon img {
+        width: 30px;
+        height: 30px;
+    }
+    .testimonials_item--icon {
+        width: 70px;
+        height: 70px;
+    }
+    .testimonials__item--pic img {
+        width: 306px;
+        height: 430px;
+        margin: 0 14px;
+        flex-wrap: wrap;
+    }  
+    .trending_container {
+        margin-top: 100px;
+    }
+    .testimonials_item--css {   
+        top: 232px;
+    }
+    .testimonials_item_container--infor {
+        top: 204px;
+    }
+    .testimonials_item_container--countant {
+        top: 270px;
+        padding: 0 26px;
+    }
+    .trending_line_one--item {
+        padding: 12px;
+        margin-right: 30px;
+    }
+    .trending_container--line {
+        margin-top: 50px;
+    }
+    .contact_container--form {     
+        width: 556px;
+        right: 2%;      
+    }
+    .contat_infor--message textarea {
+        width: 470px;     
+    }
+    .contact_infor--subject input {  
+        width: 460px;
+    }
+    .contact_infor--name_email input {
+        width: 220px;
+    }
+}
+
