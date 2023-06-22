@@ -150,3 +150,37 @@ body {
     }
 }
 
+/* Mobile */
+
+@media (max-width: 740px) {
+    .container_header {
+        display: none;
+    }
+
+    .header_navbar {
+        height: 40px;
+        background-color: rgba(54, 19, 84, .6);
+    }
+    
+    .header_navbar--logo a  {
+        font-size: 22px !important;
+        margin-right: 2px;
+    }
+
+    .header_navbar--items {
+        display: none;
+    }
+
+    .navbar_icon {
+        display: block !important;
+        right: 20px;
+        top: 15px;
+        font-size: 22px;
+        color: var(--white-color);
+    }
+
+    .navbar_icon:hover {
+        color: var(--yellow);
+    }
+}
+

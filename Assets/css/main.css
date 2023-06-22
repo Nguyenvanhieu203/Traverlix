@@ -141,6 +141,10 @@
     color: var(--yellow);
 }
 
+.navbar_icon {
+    display: none;
+}
+
 /* Body */
 .home_background {
     margin: auto;
