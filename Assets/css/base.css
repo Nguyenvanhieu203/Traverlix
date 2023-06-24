@@ -171,9 +171,6 @@ body {
     .option_list-item {
         margin: 5px;
     }
-    .search_item--first{
-        /* margin-top: 50px; */
-    }
     .search_item{
         margin-top: 50px;
     }
@@ -191,10 +188,10 @@ body {
     }
     .background_search {
         height: 600px !important;
+        flex-direction: column;
+        padding-top: 240px;
     }
-    .navbar_icon{
-        display: block !important;
-    }
+
     .tour__container {
         margin-top: 800px !important;
     }
@@ -239,6 +236,7 @@ body {
 
     .navbar_icon--list_div.show {
         display: block;
+        height: 0px;
     }
 
     .navbar_icon--list_div {
@@ -377,10 +375,6 @@ body {
     .option {
         display: block !important;
         background-color: var(--bg-btn) !important;
-    }
-
-    .background_search {
-        display: block !important;
     }
 }
 
