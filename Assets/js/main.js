@@ -69,7 +69,7 @@ petCheckbox.addEventListener('change', function() {
 // Start Responsive mobile
 
 function ShowNavbar() {
-  var navbarItem = document.querySelector('.navbar_icon--list_div');
+  var navbarItem = document.querySelector('.navbar_icon--list_div ');
   navbarItem.classList.add('show');
 }
 
@@ -81,3 +81,13 @@ function HideNavbar() {
 
 // End responsive mobile
   
+// Start Responsive ipad
+//Bắt sự kiện click vào icon menu
+// function handleIconClick() {
+//   // Thực hiện các hành động tương ứng với việc click vào biểu tượng ở đây
+//   console.log('Icon clicked!');
+// }
+// function setupIconClickEvent() {
+//   var icon = document.getElementById('my-icon');
+//   icon.addEventListener('click', handleIconClick);
+// }

@@ -84,6 +84,9 @@
     font-weight: 800;
     font-size: 30px;
 }
+.header_navbar--menu_icon{
+    display: none;
+}
 .navbar_items--list {
     display: flex;
     list-style: none;
