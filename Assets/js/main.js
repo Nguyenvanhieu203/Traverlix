@@ -69,7 +69,7 @@ petCheckbox.addEventListener('change', function() {
 // Start Responsive mobile
 
 function ShowNavbar() {
-  var navbarItem = document.querySelector('.navbar_icon--list_div');
+  var navbarItem = document.querySelector('.navbar_icon--list_div ');
   navbarItem.classList.add('show');
 }
 
