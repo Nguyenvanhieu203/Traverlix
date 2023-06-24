@@ -251,7 +251,16 @@ body {
     }
 
     .home_background h1:last-child {
-        
+        font-size: 68px !important;
+    }
+
+    .option {
+        display: block !important;
+        background-color: var(--bg-btn) !important;
+    }
+
+    .background_search {
+        display: block !important;
     }
 }
 
