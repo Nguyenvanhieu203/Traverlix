@@ -173,6 +173,8 @@ body {
     }
     .search_item--first{
         /* margin-top: 50px; */
+        /* display: block;
+        width: 100%; */
     }
     .search_item{
         margin-top: 50px;
