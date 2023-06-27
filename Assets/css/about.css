@@ -77,19 +77,21 @@
     background-position: center center;
     background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(../img/Turkey-Turkish-Cappadocia-hot-air-balloons-1149868-wallhere.com.jpg);
 }
-
+.navbar_icon {
+    display: none;
+}
 .header_navbar {
     display: flex;
     justify-content: space-around;
     line-height: 104px;
     text-transform: uppercase;
-    /* width: 1540px; */
     padding: 0 16px;
     margin: 0 auto;
     align-items: center;
     position: absolute;
     z-index: 2;
     width: 100%;
+    height: 100px;
     background: rgba(54, 19, 84, .85);
 }
 
@@ -621,7 +623,7 @@
 }
 
 /* Ipad pro */
-@media only screen and (min-width: 1024px) and (max-width: 1239px){
+/* @media only screen and (min-width: 1024px) and (max-width: 1239px){
     .home{
         height: 1366px;
     }
@@ -633,12 +635,12 @@
         background-color: #f6f9fb;
     }
 
-    .info_tour--img img{
-        width: 570px;
-        height: 422px;
+    /* .info_tour--img img{
+        width: 380px;
+        height: 316px;
         margin-right: 60px;
-    } 
-    .statistic {
+    }  */
+    /* .statistic {
         text-align: center;
         margin: 110px 0;
     }.sale {
@@ -650,4 +652,4 @@
         margin-top: 300px;
     }
    
-}
+}  */

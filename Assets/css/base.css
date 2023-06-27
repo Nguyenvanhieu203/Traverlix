@@ -49,106 +49,8 @@ body {
 
 /* Ipad */
 @media (min-width: 740px) and (max-width: 1023px){
-    /* .home{
-        height: 1366px;         
-    }
-    .option{
-  
-        margin-top: 650px;
-    }
-    .search_item--btn {
-        margin-left: 16px;
-        margin-right: 20px;
-    }
 
-    .tour__container{   
-        margin: 80px 0;
-        margin-top: 200px;
-    }
-    .pakage_content{
-        height: 470px;
-        margin: 10px;
-    }
-    .pakage_text {
-        margin: 0 100px;
-        text-align: center;
-    }
-    .tour_btn {
-        margin-top: 20px;
-    }
-    .container_offer{
-        grid-template-columns: repeat(2,492px); 
-        grid-template-rows: 100px 310px 310px;
-        gap: 10px;
-        row-gap: 70px;
-        margin:  10px;
-    
-    }
-    .picture_item{
-        width: 240px;
-        height: 310px;
-    }
-    .conten_text {
-        margin-left: 260px;
-    }
-    .conten_text--more_infor{
-        margin-top: 68px;
-    }
-    .icon  img {
-        padding-left: 0px;
-        padding-right: 10px;
-    }
-    .testimonials_container {
-        margin: -54px;
-    }
-    .testimonials_item--icon img {
-        width: 30px;
-        height: 30px;
-    }
-    .testimonials_item--icon {
-        width: 70px;
-        height: 70px;
-    }
-    .testimonials__item--pic img {
-        width: 306px;
-        height: 430px;
-        margin: 0 14px;
-        flex-wrap: wrap;
-    }  
-    .trending_container {
-        margin-top: 100px;
-    }
-    .testimonials_item--css {   
-        top: 232px;
-    }
-    .testimonials_item_container--infor {
-        top: 204px;
-    }
-    .testimonials_item_container--countant {
-        top: 270px;
-        padding: 0 26px;
-    }
-    .trending_line_one--item {
-        padding: 12px;
-        margin-right: 30px;
-    }
-    .trending_container--line {
-        margin-top: 50px;
-    }
-    .contact_container--form {     
-        width: 556px;
-        right: 2%;      
-    }
-    .contat_infor--message textarea {
-        width: 470px;     
-    }
-    .contact_infor--subject input {  
-        width: 460px;
-    }
-    .contact_infor--name_email input {
-        width: 220px;
-    } */
-
+    /* --- Home --- */
     .navbar_logo i {
         margin-left: 310px;
     }
@@ -158,26 +60,26 @@ body {
     .home_background h1:last-child {
         font-size: 100px !important;
     }
-    .option {
-        margin-top: 372px !important;
+    .option{
+        margin-left: -42px !important;
+        top: 100px !important;
+        width: 112% !important ;
+        flex-wrap: wrap;
+        height: 60px !important;
+        margin-top: 400px !important;
+        position: relative;
+        z-index: 2;
     }
 
     .option_list-item {
         flex: 48% !important;
-    }
-    .option{
-        flex-wrap: wrap;
-        height: 60px !important;
-        position: relative;
-        top: 100px;
-    }
-    .option_list-item {
         margin: 5px;
     }
-
+   
     .search_item{
         margin-top: 50px;
     }
+
     .background_search--part1,
     .background_search--part2,
     .background_search--part3 {
@@ -200,7 +102,7 @@ body {
         padding-left: 7px ;
     } 
     .background_search {
-        height: 600px !important;
+        height: 630px !important;
         flex-direction: column;
         padding-top: 240px;
     }
@@ -255,7 +157,6 @@ body {
     .navbar_icon--list_div {
         display: none;
     }
-    
     .navbar_icon--list {
         list-style: none;
     }
@@ -277,6 +178,9 @@ body {
         position: relative ;
         top: -120px!important;
         right: -50px !important;
+    }
+    .background_search--part3 .search_item--btn{
+        margin: 20px 0 !important;
     }
     /* tour */
     .tour__container__content p{
@@ -374,6 +278,106 @@ body {
     .footer_contact {
         max-width: 50% !important;
     }
+
+    /* --- about --- */
+    .home_title h1 {
+        font-size: 64px !important;
+        margin-top: 0 !important;
+    }
+    .header_navbar {
+        z-index: 3 !important;
+    }
+    .info_tour--img img{
+        width: 410px;
+        height: 290px;
+        margin: 0 20px;
+        margin-bottom: 400px;
+    } 
+    .info_tour {
+        padding: 100px 6px 90px 0px !important;
+    }
+    .statistic {
+        margin: 110px 29px !important;
+    }
+    .data_percent--bar {
+        width: 446px !important;
+    }
+    .sale {
+        margin: 0 5px !important;
+    }
+    .sale_container {
+        margin-bottom: 100px;
+    }
+
+    /* --- Offer --- */
+    .background_search--input{
+        flex-wrap: wrap;
+    }
+    .hotels_sort {
+        padding: 92px 20px;
+        margin-top: 500px;
+    }
+    .search_btn-checkbox {
+        margin: 0 76px !important;
+    }
+    .btn_checkbox--items{
+        flex:25% !important;
+    }
+    .search_item--btn {
+        margin-left: 140px !important;
+    }
+    .background_search--btn .search_item--btn{
+        margin-left: 500px !important;
+    }
+    .sort_navbar--list {
+        margin: 10px;
+    }
+    .hotels_sort--navbar{
+        flex-wrap: wrap;
+    }
+    .hotels_sort {
+        padding: 92px 5px !important;
+    }
+    .hotels_picture--img img {
+        height: 300px !important;
+        width: 370px !important;
+    }
+    .hotels_container--info{
+        max-width: 350px;
+    }
+
+    /* --- News --- */
+    .news_line_one--pic1 img{ 
+        width: 472px !important;
+        height: 260px;
+    }
+    .news_content--item ul {
+        padding: 0px 0;
+    }
+    .news_container {
+        grid-template-columns: 500px 234px !important;
+        grid-template-rows: 264px 338px 353px 318px 300px !important;
+    }
+    .news_line_three_pic img {
+        width: 70px !important;
+        height: 76px !important;
+        margin: 5px 5px;
+    }
+    .news_content--item {
+        margin-top: 32px !important;
+    }
+    .news_line_two--descreption{
+        width: 480px !important;
+    }
+    /* --- Contact --- */
+    .traverlix_img{
+        margin-left: 242px;
+    } 
+    .traverlix_img img{
+        width: 308px;
+        height: auto;
+    }
+    
 }
 
 /* Mobile */
@@ -498,13 +502,10 @@ body {
     .search_item{
         margin-top: 50px;
     }
-    .background_search{
-        
-    }
     .background_search--part1,
     .background_search--part2,
     .background_search--part3 {
-        display: flex;
+        margin-right: 15px;
     }
     .background_search--part1{
         flex-direction: column;
@@ -648,9 +649,6 @@ body {
         display: flex;
         flex-direction: column;    
     }
-    .trending_line_one--item:last-child{
-        display: none;
-    }
     .trending_content--heading a {
         width: 120px;
     }
@@ -662,9 +660,6 @@ body {
         display: flex;
         flex-direction: column;
         margin-left: 30px !important;   
-    }
-    .trending_line_one--item:last-child{
-        display: block;
     }
     /* contact */
     .contact_container--form {   
