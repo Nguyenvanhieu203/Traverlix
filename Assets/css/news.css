@@ -634,26 +634,9 @@
 }
 
 /* Ipad pro */
-@media only screen and (max-width: 1366px){
-   /* .news_line_one--pic1 img {
-        width: 662px;
+@media (max-width: 740px){
+    .header_navbar--search {
+        top: -8px;
     }
-    .news_pic1--icon_time {
-        left: 130px;
-    }
-    .news_container{
-        grid-template-columns: 700px 350px;   
-    }
-    .news_line_one--content input {
-        width: 70%;
-    }
-    .fa-magnifying-glass {
-        top: 30%;
-        right: 32%;
-    }
-    .news_line_two--descreption {
-        width: 650px;
-    } */
-
 }
 

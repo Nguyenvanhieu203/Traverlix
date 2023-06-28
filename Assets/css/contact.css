@@ -614,27 +614,3 @@
     color: var(--yellow);
     text-decoration: none;
 }
-/* Ipad pro */
-@media (min-width: 740px) and (max-width: 1023px){
-    .get_in_touch {
-        margin: 72px 20px !important;
-        width: 690px !important;
-    }
-    .contact_infor--name_email input{
-        width: 254px !important;
-    }
-    .contact_infor--subject input{
-        width: 546px !important;  
-    }
-    .contat_infor--message textarea {
-        width: 546px !important;
-    }
-    .contact_form--infor {
-        max-width: 600px;
-        padding: 0 !important;
-        margin-left: 60px;
-    }
-    .contact_form--heading h2 {
-        margin-bottom: 30px;
-    }
-}

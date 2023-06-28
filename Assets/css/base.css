@@ -500,7 +500,7 @@ body {
         font-size: 25px;
         font-weight: 600;
     }
-    /* home */
+    /* --- Home --- */
     .home_background h1:first-child {
         font-size: 48px !important;
     }
@@ -701,6 +701,118 @@ body {
     .contat_infor--message textarea {
         width: 250px !important;
     }
+
+    /* --- About --- */
+    .home_title h1{
+        font-size: 25px !important;
+    }
+    .info_tour{
+        flex-direction: column;
+        padding: 90px 10px 90px 22px !important;
+    }
+    .info_tour--img img{
+        width: 318px;
+        height: 234px;
+    }
+    .info_tour--text p {
+        margin: 40px 0px;
+    }
+    .statistic {
+        margin: 0px 0px !important;
+    }
+    .data_percent--bar{
+        width: 104px !important;
+    }
+    .sale {   
+        margin: 0 0 !important;
+    }
+
+    .sale_container{
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    /* --- Offer --- */
+    .header_navbar--search{
+        position: relative;
+        top: 0px;
+        right: -20px;
+    }
+    .hotels_sort{
+        margin-top: 1050px;
+        padding: 92px 24px !important;
+    }
+    .hotels_sort--navbar {
+        flex-direction: column;
+    }
+    .sort_navbar--list {
+        margin: 10px;
+    }
+    .hotel_container--list {
+        flex-direction: column;
+    }
+    .hotels_picture--img img {
+        height: 350px !important;
+        width: 320px !important;
+    }
+    .hotels_container--info{
+        margin-top: 20px;
+    }
+    .news_line_three_pic img {
+        width: 110px !important;
+        height: 110px !important;
+    }
+    .news_container--line_five {
+        margin: 40px 0px !important;
+    }
+    /* --- News --- */
+    .news_container{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .news_line_one--pic1 {
+        left: 10px;
+    }
+    .news_line_one--pic1 img{
+        width: 330px !important;
+        height: 180px !important; 
+    }
+    .news_line_two--descreption {
+        width: 340px !important;
+    }
+    .news_container--line_one,
+    .news_line_one--content,
+    .news_container--line_two,
+    .news_line__two_content,
+    .news_container--line_three,
+    .news_line__three_content,
+    .news_container--line_four,
+    .news_line__four_content,
+    .news_container--line_five{
+        padding: 10px;
+    }
+    /* --- Contact --- */
+    .get_in_touch {
+        margin: 72px 5px !important;
+        width: 350px !important;
+        
+    }
+    .traverlix_contact .traverlix {
+        flex-direction: column;
+        margin: 0px 10px !important;
+    }
+    .traverlix_img img{
+        width: 346px !important;
+        height: 462px !important;
+        margin-bottom: 20px;
+    }
+    .traverlix_info {
+        margin: 0 10px !important;
+        width: 300px !important;
+    }
+    .traverlix_info--contact{
+        margin-bottom: 40px;
+    }
+
     /* Footer */
     .container_footer {
         flex-direction: column;
@@ -712,5 +824,6 @@ body {
     .footer_info--text {
         margin-left: 0px !important;
     }
+    
 }
 
