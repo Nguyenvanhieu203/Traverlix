@@ -1,0 +1,124 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--border);
+    height: 100vh;
+}
+.login_container{
+    padding: 40px;
+    width: 450px;
+    height: 650px;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: var(--white-color) ;
+
+}
+.login_header{
+    text-align: center;
+    padding: 10px;
+}
+.login_header h1{
+    font-weight: 800;
+    color: var(--black);
+}
+.login_username_password{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.login_username_password p{
+    padding: 10px;
+    color: var(--black);
+}
+.login_username_password input{
+    padding: 10px;
+    border-width: 0 0 1px 0;
+    outline: none;
+}
+.login_forgot_password {
+    text-align: right;  
+    padding: 10px;
+}
+.login_forgot_password a{
+    text-decoration: none;
+    color: var(--black);
+
+}
+.login_forgot_password a:hover{
+    color: var(--yellow);
+}
+.login_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    background: var(--offer-color);
+    cursor: pointer;
+}
+.login_btn:hover{
+    opacity: 0.8;
+}
+.login_btn a{
+    text-decoration: none;
+    color: var(--white-color);
+    padding: auto;
+}
+.login_another_acc{
+    text-align: center;
+}
+.login_another_acc p {
+    margin: 30px;
+}
+.login_another_acc ul li{
+    padding: 0 5px;
+}
+.login_another_acc ul li a i{
+    color: var(--white-color);
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.login_icon--fb{
+    background-color: rgb(59,89,152);
+    
+}
+.login_icon--twitter{
+    background-color: rgb(39,161,243);
+}
+.login_icon--google{
+    background-color: rgb(234,67,53);
+}
+.login_another_acc ul li{
+    list-style: none;
+    display: inline-block;
+}
+.login--icon i{
+    width: 50px;
+    height: 50px;
+}
+.login_register{
+    padding-top: 100px;
+    text-align: center;
+
+}
+.login_register p{
+    padding: 10px;
+}
+.login_register a{
+    text-decoration: none;
+    color: var(--black);
+}
+.login_register a:hover{
+    color: var(--yellow);
+}
+.MyInput::placeholder {
+    opacity: 0.6;
+}

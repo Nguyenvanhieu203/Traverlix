@@ -1,0 +1,97 @@
+*{
+    color: var(--black);
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--border);
+    height: 100vh;
+}
+.register_container{
+    padding: 40px;
+    width: 550px;
+    height: 650px;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: var(--white-color) ;
+}
+.register_header{
+    text-align: center;
+    padding: 10px;
+}
+.register_header h1{
+    font-weight: 800;
+    color: var(--black);
+}
+.register_infor--name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.register_name--container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.register_name--container:first-child{
+    margin-right: 10px;
+}
+.register_name--container p,
+.register_infor--email p,
+.register_pass--container p,
+.register_pass--container p{
+    padding: 10px;
+}
+.register_infor--email{
+    display: flex;
+    flex-direction: column;
+}
+.register_infor--email input{
+    flex:1;
+}
+.register_pass--container{
+    display: flex;
+    flex-direction: column;
+}
+.register_login{
+    text-align: center;
+    padding: 10px;
+}
+.register_login span a{
+    text-decoration: none;
+}
+.register_login span a:hover{
+    color: var(--yellow);
+}
+.register_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    background: var(--offer-color);
+    cursor: pointer;
+}
+.register_btn:hover{
+    opacity: 0.8;
+}
+.register_btn a{
+    text-decoration: none;
+    color: var(--white-color);
+    padding: auto;
+}
+.MyInput{
+    padding: 10px;
+    border-width: 0 0 1px 0;
+    padding-bottom: 10px;
+    outline: none;
+}
+.MyInput::placeholder {
+    opacity: 0.6;
+}
