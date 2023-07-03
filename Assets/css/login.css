@@ -122,3 +122,42 @@
 .MyInput::placeholder {
     opacity: 0.6;
 }
+
+
+/*  */
+
+.home_background--btn {
+    display: inline-block;
+    border-radius: 27px;
+    position: relative;
+    /* margin-top: 380px; */
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    width: 370px;
+}
+.background_btn--bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: var(--bg-btn);
+    cursor: pointer;
+}
+.home_background--btn:hover .background_btn--bg {
+    transform: translateX(-50%);
+    transition: all 400ms ease;
+
+}
+.background_btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding-left: 168px;
+    white-space: nowrap;
+    position: relative;
+    text-decoration: none;
+}
